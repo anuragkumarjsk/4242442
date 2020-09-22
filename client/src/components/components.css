@@ -33,3 +33,66 @@
 .formstyle input{
   border-left :0px;
 }
+
+.table{
+  font-size: medium;
+  color: aliceblue;
+  width: 95vw;
+}
+
+.formcard{
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  color: aquamarine;
+  width: 50vw;
+  border-radius: 10px;
+  margin:10vh 50vh ;
+  background-color: #337;
+  text-align:center ;
+  padding-bottom: 2vh;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2 vw;
+  background-color:red;
+   color:white;
+   font-size:larger; 
+   margin:1em 0vw 1em 16vw ;
+   width: 20vw;
+
+
+}
+
+#im{
+  float: right;
+  margin: 5px 5px;
+}
+
+.carousel-fade .carousel-item, .carousel-item img  {
+  max-height: 90vh;
+}
+
+p{
+  max-width: 95vw;
+  font-size: 25px ;
+}
+input{
+  border-radius: 10px;
+  width:50vw;
+  padding: 5px  25px 15px 15px ;
+}
+label{
+  float: left;
+  padding: 5px  15px 5px 15px ;
+}
+
+.founder{
+  height: 30vh;
+  width:60vw ;
+  border-radius: 10px;
+  padding: 2vh 2vw 2vh 2vw;
+  margin: 2vh 2vw 2vh 2vw ;
+}

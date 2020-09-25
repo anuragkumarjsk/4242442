@@ -61,7 +61,8 @@ import cred from './cred'
              </div>
              }   
 
-             {this.state.isloggedin && <table className="table">
+             {this.state.isloggedin && <div style={{overflowX:"auto"}}>
+             <table className="table">
                 <thead>
                 <tr>
                 <th>Ref Id</th>
@@ -93,6 +94,7 @@ import cred from './cred'
 
                 </tbody>
             </table>
+            </div>
             }
 
 

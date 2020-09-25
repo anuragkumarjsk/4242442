@@ -68,6 +68,7 @@ import './components.css'
             <div>
                 <p>In case of queries related to business or internship opportunities, 
                 feel free to reach out to us, we will be happy to help and collaborate.</p>
+            <div className="flexbox-container">
             <div className='formcard'>
                 <h2>Contact Us</h2><hr/>
                 <form className="formstyle" >
@@ -98,7 +99,7 @@ import './components.css'
                 <input id="organization" name="organization" type="text" onChange={this.organizationchange} /><br/>
                 <button className="btn"  onClick={this.getformdata}>submit</button>
                 </form>
-            </div>
+            </div></div>
             </div>
         )
     }

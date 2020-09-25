@@ -3,7 +3,7 @@ import './components.css'
 export default class event extends Component {
     render() {
         return (
-            <div>
+            <div className="flexbox-container">
                 <div className="founder" style={{float:"left", backgroundColor:"#f663"}} >
                     <h2> Komal Nagraj</h2>
                     <h6>A cool minded person, who leads decision making,

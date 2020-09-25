@@ -52,11 +52,13 @@ import cred from './cred'
              {this.state.showlogin && 
              <div>
                  <h2>To see the data entered so far please enter the username and password</h2>
-             <div className="formcard"> 
+             <div className="flexbox-container">
+                 <div className="formcard">
                  username:<input type="text"   onChange={this.handleusr}/><br/>
                  password:<input  type="password" onChange={this.handlepwd} /><br/>
-                 < button className="btn" onClick={this.checkpwd}>submit</button>
-             </div></div>
+                 < button className="btn" onClick={this.checkpwd}>submit</button></div>
+             </div>
+             </div>
              }   
 
              {this.state.isloggedin && <table className="table">

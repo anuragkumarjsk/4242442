@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const mongoose = require('mongoose');
 const router = require('./routes/candidateroute');
 
-const mongourl = process.env.MONGO_URI || 'mongodb://localhost:27017/oltu'
+const mongourl = process.env.MONGO_URI1 || process.env.MONGO_URI2
 mongoose.connect(mongourl,
 {useNewUrlParser:true,
 useUnifiedTopology:true

@@ -30,7 +30,8 @@ import cred from './cred'
     componentDidMount()
     {
     
-        axios.get('http://localhost:4000/candidates')
+        // axios.get('http://localhost:4000/candidates')
+        axios.get(`${process.env.REACT_APP_BACKEND_URL}/candidates`)
         .then((result)=>{
             console.log('success fully retrieved data')
             this.setState({data:result.data})
@@ -41,7 +42,7 @@ import cred from './cred'
     delete_record=(e)=>{
         e.preventDefault()
         var id = this.state.delete_id
-        axios.delete(`http://localhost:4000/candidates/delete/${id}`)
+        axios.delete(`${process.env.REACT_APP_BACKEND_URL}/candidates/delete/${id}`)
         .then(()=>{console.log(id+' deleted successfully')})
         .catch(()=>{console.log('unablel to delete id')})
     }

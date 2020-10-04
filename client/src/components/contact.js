@@ -55,7 +55,7 @@ import './components.css'
 
       const payload=this.state
 
-      axios.post("http://localhost:4000/candidates/add",payload)
+      axios.post(`${process.env.REACT_APP_BACKEND_URL}/candidates/add`,payload)
       .then(()=>{
           console.log('data added successfully')
     })
